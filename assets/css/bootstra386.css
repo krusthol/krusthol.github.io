@@ -1,0 +1,130 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+h1 {
+    text-align: left;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.container > hr {
+    margin: 42px 0;
+}
+.jumbotron {
+    margin: 42px 24px 0px 0px;
+    text-align: left;
+}
+.jumbotron h1 {
+    font-size: 56px;
+    line-height: 0.7;
+    text-align: right;
+}
+
+.jumbotron h2 {
+    font-size: 42px;
+    line-height: 1;
+    text-align: right;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.jumbotron .lead {
+    font-size: 24px;
+    line-height: 1.25;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+.navbar .navbar-inner {
+    padding: 0;
+}
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+.donothover {
+    pointer-events: none;
+}
+
+.hero-unit h2 {
+    font-size: 42px;
+    text-align: right;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+
+.span4 h2 {
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.breath {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.slide {
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.cursor {
+    animation: blink 1s infinite;
+    color: yellow;
+}
+@media only screen and (orientation: landscape)
+{
+    .cursor {
+        color: white;
+    }
+    .jumbotron h1 {
+        font-size: 82px;
+    }
+}
